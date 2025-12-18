@@ -46,7 +46,7 @@ function searchProducts() {
       row.insertCell(0).innerText = p.code;
       row.insertCell(1).innerText = "₹" + p.price;
       row.insertCell(2).innerHTML =
-        `<a href="pdfs/Taparia/taparia.pdf" target="_blank">View</a>`;
+        `<a href="pdfs/SKF/skf.pdf" target="_blank">View</a>`;
     });
 }
 
