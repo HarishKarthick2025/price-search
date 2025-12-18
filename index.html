@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Taparia Price Search</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input { width: 100%; padding: 10px; margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h2>Taparia Product Price Search</h2>
+
+<input id="searchInput" placeholder="Search product code..." onkeyup="searchProducts()">
+
+<table id="results">
+  <tr>
+    <th>Product</th>
+    <th>MRP (₹)</th>
+    <th>PDF</th>
+  </tr>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
