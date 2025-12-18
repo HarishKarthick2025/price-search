@@ -4,7 +4,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
 let products = [];
 
 async function loadPDF() {
-  const pdf = await pdfjsLib.getDocument("pdfs/Taparia/taparia.pdf").promise;
+  const pdf = await pdfjsLib.getDocument("pdfs/SKF/skf.pdf").promise;
 
   for (let i = 1; i <= pdf.numPages; i++) {
     const page = await pdf.getPage(i);
